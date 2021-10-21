@@ -34,7 +34,6 @@ app.get("/all",getAll);
 
 const postData = (req,res)=>{
     projectData = req.body;
-    req.status(200).send(projectData);
 }
 
 app.post("/add",postData);
